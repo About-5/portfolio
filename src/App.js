@@ -5,7 +5,8 @@ import {
 } from "react-router-dom"
 
 import Home from './pages/Home'
-import Project from './pages/Project'
+import Snake from './pages/Snake'
+import WhatcomStables from './pages/WhatcomStables'
 import Header from './components/Header'
 import './css/App.css'
 
@@ -16,8 +17,11 @@ function App() {
       <Route exact path='/'>
         <Home />
       </Route>
-      <Route path='/project'>
-        <Project/>
+      <Route path='/Snake'>
+        <Snake />
+      </Route>
+      <Route path='/WhatcomStables'>
+        <WhatcomStables />
       </Route>
     </Router>
   )
